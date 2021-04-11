@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    justify-content: center;
+    color: aqua;
+}
+
+body{
+    background-image: url(./akan\ people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: red;
+    image-orientation: flip;
+}
+.form{
+    text-align: left;
+}
+.label{
+    text-align: center;
+}
+#gender{
+    color: chartreuse;
+}
