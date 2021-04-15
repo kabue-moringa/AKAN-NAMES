@@ -32,3 +32,12 @@ if(gender === "female"){
 
 }
 function print(){
+
+var gender = document.getElementsByName("gender");
+
+for(i= 0; i <gender.length; i++){
+    if(gender[i].checked){
+        alert(gender[i].value)
+    }
+}
+}
