@@ -20,3 +20,12 @@ if(month < 1 || month > 12 ){
 }
 if(year < 1989 || year > 2050 ){
     alert("invalid year");
+}
+if(gender === "female"){
+
+    alert("You were born on " + dayNames[day1] + " and your akan name is" + femaleNames[day1])
+
+}else{
+   
+    alert("You were born on " + dayNames[day1] + " and your akan name is" +  maleNames[day1])
+}
