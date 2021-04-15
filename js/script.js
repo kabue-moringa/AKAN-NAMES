@@ -29,3 +29,6 @@ if(gender === "female"){
    
     alert("You were born on " + dayNames[day1] + " and your akan name is" +  maleNames[day1])
 }
+
+}
+function print(){
