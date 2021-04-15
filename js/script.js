@@ -8,3 +8,13 @@ function results () {
     var date = new Date(day + "/" + month + "/" + year);
     var gender = document.getElementById("gender").value;
     var day1 = date.getDay();
+
+if(day < 1 || day > 31){
+    alert("invalid date");
+
+}
+
+if(month < 1 || month > 12 ){
+    alert("invalid month");
+
+}
